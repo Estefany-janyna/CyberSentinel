@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Responsive Drop Down Navigation Menu | CyberSentinel </title>
+    <link rel="stylesheet" href="../css/inicio.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#">CyberSentinel</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">CyberSentinel</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <div class="nave">
+                    <ul class="links">
+                        <li><a href="inicio.html">HOME</a></li>
+                        <li>
+                            <a href="#">NOSOTROS</a>
+                            <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                            <ul class="htmlCss-sub-menu sub-menu">
+                                <li><a href="nosotros.html">¿Quienes somos?</a></li>
+                                <li><a href="mision.html">Misión y Visión</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="servicios.html">SERVICIOS</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> 
+        <div class="carousel-inner">
+            <div class="centrado">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100"
+                        alt="...">
+                    <div class="centrar">
+                        <h1>Fortalece tu Carrera en Ciberseguridad con Nuestros Programas de Capacitación</h1>
+                        <p>Descubre Nuestros Programas de Ciberseguridad y Protección de Datos para un Mundo Digital más
+                            Seguro</p>
+                        <button type="button" onclick="redirigirAVista()">Cantactanos</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="d-block w-100" alt="...">
+                    <h1>Fortalece tu Carrera en Ciberseguridad con Nuestros Programas de Capacitación</h1>
+                    <p>Descubre Nuestros Programas de Ciberseguridad y Protección de Datos para un Mundo Digital más
+                        Seguro</p>
+                    <button type="button" onclick="redirigirAVista()">Cantactanos</button>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="d-block w-100" alt="...">
+                    <h1>Fortalece tu Carrera en Ciberseguridad con Nuestros Programas de Capacitación</h1>
+                    <p>Descubre Nuestros Programas de Ciberseguridad y Protección de Datos para un Mundo Digital más
+                        Seguro</p>
+                    <button type="button" onclick="redirigirAVista()">Cantactanos</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+        <!-- Skills Section -->
+        <section class="container py-5" id="skills">
+            <div class="row mt-4 py-3">
+                <div class="col-12 d-flex flex-column text-center justify-content-center">
+                    <h2>DESARROLLA TU FORTALEZA DIGITAL</h2>
+                    <h5 class="text-secondary fw-normal py-2 fst-italic">Al aprender Y accedes a una experiencia
+                        educativa enriquecedora que va más allá de la adquisición de conocimientos.</h5>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between mx-0">
+                <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+                    style="width: 25rem">
+                    <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg" alt="" width="200px">
+                    <h3 class="mt-4 h4">Experiencia Práctica</h3>
+                    <p class="text-center">Nuestros cursos se enfocan en la aplicación práctica de conocimientos.
+                        Trabaja en entornos
+                        simulados, enfrenta desafíos del mundo real y desarrolla habilidades prácticas que te destacarán
+                        en el campo.</p>
+                </div>
+                <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+                    style="width: 25rem">
+                    <img src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="" width="200px">
+                    <h3 class="mt-4 h4">Instructores Expertos</h3>
+                    <p class="text-center">Te guiaremos a través de tu viaje de aprendizaje con el apoyo de instructores
+                        altamente calificados
+                        y con experiencia en el ámbito de la ciberseguridad. Aprende de profesionales que han enfrentado
+                        y superado desafíos reales.</p>
+                </div>
+                <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+                    style="width: 25rem">
+                    <img src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="" width="200px">
+                    <h3 class="mt-4 h4">Oportunidades Profesionales</h3>
+                    <p class="text-center">Únete a nuestra comunidad en crecimiento. Conéctate con otros estudiantes,
+                        accede a eventos exclusivos y
+                        descubre oportunidades laborales en el campo de la ciberseguridad y la protección de datos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="container py-5" id="portfolio">
+            <div class="row mt-4 py-3">
+                <div class="col-12 d-flex flex-column text-center justify-content-center">
+                    <h2>CURSOS DESTACADOS</h2>
+                    <h5 class="text-secondary fw-normal py-2 fst-italic">Sumérgete en el fascinante mundo del hacking
+                        ético y adquiere las habilidades necesarias para evaluar y fortalecer la seguridad de sistemas.
+                    </h5>
+                </div>
+                <div class="row mt-5 mx-0 justify-content-center align-items-center">
+                    <div class="col-lg-3 px-md-3 px-0 col-md-4 col-12 card-wrapper">
+                        <div class="card mt-4">
+                            <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="img-fluid" alt="portfolio-img">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Ethical Hacking y Penetración de Sistemas</h6>
+                                <p class="card-text text-secondary">Domina las habilidades para responder de manera
+                                    eficaz a amenazas cibernéticas y proteger tu entorno digital.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+                        <div class="card mt-4">
+                            <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg"
+                                class="img-fluid" alt="portfolio-img">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Cumplimiento Normativo y Protección de Datos</h6>
+                                <p class="card-text text-secondary">Conoce las leyes de privacidad y aprende a
+                                    garantizar el cumplimiento con regulaciones como el GDPR.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+                        <div class="card mt-4">
+                            <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="img-fluid" alt="portfolio-img">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Seguridad en Aplicaciones Web</h6>
+                                <p class="card-text text-secondary">Descubre cómo asegurar aplicaciones web contra
+                                    amenazas cibernéticas en un entorno digital con toda la información necesaria.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+                        <div class="card mt-4">
+                            <img src="https://images.pexels.com/photos/6330644/pexels-photo-6330644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="img-fluid" alt="portfolio-img">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Blog Website</h6>
+                                <p class="card-text text-secondary">Aprende a identificar y corregir vulnerabilidades
+                                    para garantizar una experiencia segura para los usuarios y proteger los datos
+                                    sensibles.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contador -->
+
+        <section>
+            <div class="scroll-container">
+                <div class="counter-section">
+                    <h2>Próximo Curso de Ciberseguridad</h2>
+                    <div class="counter days">
+                        <span class="counter" id="days">00</span>
+                        <span class="counter-text">Dias</span>
+                    </div>
+                    <div class="counter hours ">
+                        <span class="counter" id="hours">00</span>
+                        <span class="counter-text">Horas</span>
+                    </div>
+                    <div class="counter minutes">
+                        <span class="counter" id="minutes">00</span>
+                        <span class="counter-text">Minutos</span>
+                    </div>
+                    <div class="counter seconds">
+                        <span class="counter" id="seconds">00</span>
+                        <span class="counter-text">Segundos</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer Section -->
+        <footer>
+            <section class="footer">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h3 class="footerh4">CyberSentinel</h3>
+                        <p>
+                            Protege el Futuro Digital: Descubre Nuestros Cursos Especializados"
+                            Introducción
+                        </p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <ul class="links">
+                            <li><a href="inicio.html">Home</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <ul class="links">
+                            <li><a href="#">Acuerdo con el cliente</a></li>
+                            <li><a href="#">Política de privacidad</a></li>
+                            <li><a href="#">Seguridad</a></li>
+                            <li><a href="#">Testimonios</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Newsletter</h4>
+                        <p>Suscríbete a nuestro boletín para recibir una dosis semanal de noticias, actualizaciones,
+                            consejos útiles y ofertas exclusivas.
+                        </p>
+                        <form action="#">
+                            <input type="text" placeholder="Your email" required>
+                            <button type="submit">SUSCRÍBETE</button>
+                        </form>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="polity">
+                        <p class="reservados">&copy; 2024 - Todos los derechos reservados.</p>
+                       </div>
+                </div>
+            </section>
+        </footer>
+        <script src="../js/inicio.js"></script>
+        <script src="../js/contador.js"></script>
+        <!-- Bootstrap JS and jQuery Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+</html><!-- http://127.0.0.1:5500/page/inicio.html -->

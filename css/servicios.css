@@ -1,0 +1,397 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Quicksand:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-style: normal;   
+}
+
+body {
+    min-height: 100vh;
+}
+
+.magnate img {
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    right: 80px;
+}
+
+body .carousel .carousel-inner .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.385);
+    color: #fff; /* Cambia el valor RGBA según el color que desees */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+}
+
+nav .navbar {
+    height: 100%;
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 17px 50px;
+}
+
+.navbar .logo a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav .navbar .nav-links {
+    line-height: 70px;
+    height: 100%;
+}
+
+nav .navbar .links {
+    display: flex;
+}
+
+nav .navbar .links li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 7px 14px;
+}
+
+nav .navbar .links li a {
+    height: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+nav .navbar .links li a:hover {
+    color: aqua;
+}
+
+/* Las flechas arriba abajo del menú */
+nav .navbar .links li .arrow {
+    height: 100%;
+    width: 22px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Del menú principal */
+nav .navbar .links li .sub-menu {
+    position: absolute;
+    top: 83px;
+    left: 0;
+    line-height: 40px;
+    background: rgba(26, 25, 25, 0.851);
+    color: #fff;
+    border-radius: 0 0 7px 7px;
+    display: none;
+    z-index: 2;
+    padding-left: 0;
+}
+
+nav .navbar .links li:hover .htmlCss-sub-menu,
+nav .navbar .links li:hover .js-sub-menu {
+    display: block;
+}
+
+.navbar {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar .nav-links .sidebar-logo {
+    display: none;
+}
+
+.navbar .bx-menu {
+    display: none;
+}
+
+/* Estilos de contacto */
+#contact {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://images.pexels.com/photos/5473303/pexels-photo-5473303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+
+  .container .row h2{
+    color: #fff;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+  }
+  .container .row h5{
+    color: #fff;
+    font-family: sans-serif;
+  }
+  #skills i{
+    height: 100px;
+    width: 100px;
+  }
+
+  /* Agrega estos estilos al final de tu archivo CSS o en la sección de estilos del encabezado *
+
+/* Puedes ajustar estos estilos según sea necesario */
+.card {
+  overflow: hidden; /* Asegura que cualquier parte de la imagen que se extienda más allá del círculo esté oculta */
+  position: relative; /* Permite que los elementos secundarios (la imagen en este caso) se posicionen con respecto a este contenedor */
+  height: 500px; /* Ajusta la altura según sea necesario */
+}
+
+.row :hover{
+  color: #7489C6;
+  transform: scale(1.1);
+}
+.card img {
+  width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
+  height: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
+  object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor manteniendo la relación de aspecto */
+  object-position: center center; /* Centra la imagen tanto vertical como horizontalmente */
+  border-radius: 50%; /* Hace que la imagen sea circular */
+}
+
+.card h3, p {
+  color: #fff;
+}
+
+.footer {
+  background: #10182F;
+}
+  .footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 40px 40px 10px 40px;
+  }
+  .footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .footer-row .footer-col h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .footer-col .links {
+    margin-top: 20px;
+  }
+  .footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+  }
+  .footer-col .links li a:hover {
+    color: #fff;
+  }
+  .footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+  }
+  .footer-col form {
+    display: flex;
+    gap: 5px;
+  }
+  .footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7489C6 ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+  .footer-col input::placeholder {
+    color: #ccc;
+  }
+   .footer-col form button {
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  .footer-col form button:hover {
+    background: #cecccc;
+  }
+  .footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+  .footer-col .icons i {
+    color: #afb6c7;
+  }
+  .footer-col .icons i:hover  {
+    color: #fff;
+  }
+
+
+  
+  
+
+  
+
+@media (max-width: 920px) {
+    nav .navbar {
+        max-width: 100%;
+        padding: 0 25px;
+    }
+
+    nav .navbar .logo a {
+        font-size: 27px;
+    }
+
+    nav .navbar .links li {
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+    nav .navbar .links li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .navbar .bx-menu {
+        display: block;
+    }
+
+    nav .navbar .nave .links {
+        padding: 0;
+    }
+
+    nav .navbar .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: block;
+        max-width: 270px;
+        width: 100%;
+        padding: 20px;
+        background: rgba(3, 3, 3, 0.942);
+        color: #fff;
+        transition: all 0.5s ease;
+        z-index: 1000;
+    }
+
+    .navbar .nav-links .sidebar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .sidebar-logo .logo-name {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .sidebar-logo i,
+    .navbar .bx-menu {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    nav .navbar .links {
+        display: block;
+        margin-top: 40px;
+    }
+
+    nav .navbar .links li .arrow {
+        line-height: 40px;
+    }
+
+    nav .navbar .links li {
+        display: block;
+        padding-bottom: 10px;
+        border-bottom:
+        0.1px solid #fff;
+    }
+
+    nav .navbar .links li .sub-menu {
+        position: relative;
+        top: 0;
+        box-shadow: none;
+        display: none;
+        padding: 10px;
+    }
+
+    
+}
+
+@media (max-width: 770px) {
+    nav .navbar .nav-links {
+        max-width: 100%;
+    }
+
+   
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        border-radius: 0;
+      }
+      .footer .footer-row {
+        padding: 20px;
+        gap: 1rem;
+      }
+      .footer-col form {
+        display: block;
+      }
+      .footer-col form :where(input, button) {
+        width: 100%;
+      }
+      .footer-col form button {
+        margin: 10px 0 0 0;
+      }
+}
+
